@@ -1,0 +1,80 @@
+#heading{
+  color:white;
+}
+.rep{
+  text-align: center;
+  color:white;
+  font-size:30px;
+}
+hr{
+  color:white;
+  height: 10px;;
+}
+#detailSec{
+  margin:0 auto;
+  width:500px;
+
+}
+label{
+  color:orange;
+  font-weight: bold;
+}
+button{
+  border:orange 2px solid !important;
+  color:orange !important;
+}
+button:hover{
+  background-color: white !important;
+  color:orange !important;
+}
+input,select{
+  color:orange !important;
+  font-weight: bold;
+  font-size: 30px;
+}
+#errSec{
+  display:none;
+}
+button:hover span{
+  color:orange;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+  font-style: italic;
+}
+#imgCont{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom:10px;
+}
+
+img{
+  border-bottom-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+#spinner{
+  display:none;
+}
+#rightSec{
+  display:none;
+}
+
+table {
+  display: block;
+  /* background: white; optional */
+}
+
+table thead {
+  text-align: left; /* optional */
+}
+
+table tbody {
+  display: block;
+  max-height: 500px;
+  overflow-y: scroll;
+}
+
+
+
